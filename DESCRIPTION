@@ -1,0 +1,13 @@
+Package: CWGEE
+Type: Package
+Title: Cluster-weighted generalized estimating equations for data with informative cluster size
+Version: 0.1.0
+Authors@R: person("Aya", "Mitani", email = "ayamitani@gmail.com", role = c("aut", "cre"))
+Description: This package includes functions to fit a model using cluster-weighted generalized estimating equations (CWGEE) for clustered longitudinal data with informative cluster size (ICS). For ordinal outcomes, use the function ordCWGEE. Function for binary outcomes is coming soon. For cross-sectional data with multiple correlated binary outcomes, use the function mvoCWGEE. A simulated example data sets (perio, perio_base) are available. 
+Depends: R (>= 3.1.1), geepack, gee, MASS, fastDummies, matrixcalc
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/AyaMitani/CWGEE/
+BugReports: https://github.com/AyaMitani/CWGEE/issues
+RoxygenNote: 6.1.1
