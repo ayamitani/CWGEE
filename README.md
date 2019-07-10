@@ -8,7 +8,8 @@ library(devtools)
 devtools::install_github("AyaMitani/CWGEE")
 library(CWGEE)
 ```
-#### Example for ordinal clustered longitudinal outcome with informative cluster size
+#### Example for ordinal clustered longitudinal outcome with informative cluster size as seen in:
+Mitani, AA, Kaye, EK, Nelson, KP. Marginal analysis of ordinal clustered longitudinal data with informative cluster size. Biometrics. 2019; 1– 12. https://doi.org/10.1111/biom.13050
 ```
 data(perio)
 fitmod <- ordCWGEE(formula = cal ~ mets + edu + age + smoking, data = perio,
