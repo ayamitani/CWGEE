@@ -5,7 +5,7 @@ Cluster-weighted generalized estimating equations for clustered longitudinal dat
 ```
 install.packages("devtools")
 library(devtools)
-devtools::install_github("AyaMitani/CWGEE")
+devtools::install_github("ayamitani/CWGEE")
 library(CWGEE)
 ```
 #### Example for ordinal clustered longitudinal outcome with informative cluster size as seen in:
