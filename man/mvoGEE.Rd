@@ -25,7 +25,7 @@ Options include \code{"ind"} for independence, \code{"unstr"} for unstructured, 
 have a common slope for each of the responses.}
 }
 \value{
-Returns an object of the class \code{"unwgee"}. This has components:
+Returns an object of the class \code{"cwgee"}. This has components:
 \item{call}{the matched call.}
 \item{coefficients}{the estimated regression parameter vector of the marginal model.}
 \item{coef.names}{the variable name of the coefficients.}

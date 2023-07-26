@@ -17,7 +17,7 @@
 #' @param common.slope a character string indicating which variables in the model will
 #' have a common slope for each of the responses.
 #'
-#' @return Returns an object of the class \code{"unwgee"}. This has components:
+#' @return Returns an object of the class \code{"cwgee"}. This has components:
 #' \item{call}{the matched call.}
 #' \item{coefficients}{the estimated regression parameter vector of the marginal model.}
 #' \item{coef.names}{the variable name of the coefficients.}
@@ -111,7 +111,7 @@ mvoGEE <- function(formula, data, cluster, resp.ind, unit, corr.str, common.slop
   result$corr.str <- corr.str
   result$corr.matrix <- cwgeeout$R
   result$niter <- cwgeeout$niter
-  class(result) <- "unwgee"
+  class(result) <- "cwgee"
   result
 
 }
